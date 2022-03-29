@@ -54,7 +54,7 @@ public class LWJGLSample {
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE); // the window will be resizable
 
         // Create the window
-        window = glfwCreateWindow(400, 400, "Cube with LWJGL", NULL, NULL);
+        window = glfwCreateWindow(450, 450, "Cube 3D with LWJGL", NULL, NULL);
         if (window == NULL) {
             throw new RuntimeException("Failed to create the GLFW window");
         }
